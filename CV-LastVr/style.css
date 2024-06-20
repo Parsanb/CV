@@ -1,0 +1,220 @@
+@font-face { font-family: JuneBug; src: url('warzone-warzone-400.TTF'); } 
+@font-face { font-family: JuneBug; src: url('Onvan-FD.TTF'); } 
+@font-face { font-family: JuneBug; src: url('Cinema.TTF'); } 
+@font-face { font-family: JuneBug; src: url('Vazirmatn-Medium.TTF'); } 
+@font-face { font-family: JuneBug; src: url('Tahrir_Extra Bold.TTF'); } 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: right;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #d0f0fd, #b3e5fc);
+    padding: 20px; 
+    background-image: url(BodyBack3.png);
+    background-size: 100% ;
+}
+h10 {
+    font-family: warzone;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h1 ,h2{
+    font-family:Onvan-FD;
+    font-size: 24px;
+}
+h3{
+    font-family: cinema;
+}
+p5{
+    font-family: vazir;
+}
+ul,p4{
+    font-family: vazir;
+}
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 20px;
+}
+
+.right {
+    background-image: linear-gradient(to bottom right, rgb(98, 11, 211), rgb(196, 2, 207));
+    color: #fff;
+    padding: 20px;
+    width: 40%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+    position: relative;
+}
+
+.left {
+    padding: 20px;
+    width: 60%;
+    position: relative;
+}
+
+.profile
+{
+    text-align: center;
+
+}
+.profile img {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: solid 3px #f1f1f1;
+
+    
+}
+
+.profile h1 {
+    margin-bottom: 5px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.profile h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #bbb;
+}
+
+.divider {
+    position: center;
+    width: 100%;
+    height: 3px;
+    background: #ffffff;
+    margin: 20px 0;
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    background-image: linear-gradient(rgb(65, 199, 199) , rgb(244, 56, 238));
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 30px 0;
+    font-family: Tahrir ExtraBold ;
+    font-size: 19px;
+    font-weight: 800;
+    position: relative;
+    top: 30px;
+}
+
+.contact-info img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.name-bar {
+    background: #003366;
+    color: #fff;
+    padding: 7px;
+    margin-top: 3px;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 40px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+section {
+    margin-bottom: 20px;
+
+}
+
+section h2 {
+    background-image: linear-gradient(rgb(8, 36, 197), rgb(255, 0, 157));
+
+    color: #fff;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.job {
+    margin-bottom: 30px;
+}
+
+.job h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.job p4 {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.job ul {
+    list-style: disc;
+    padding-right: 20px;
+    margin-bottom: 70px;
+}
+.job li{
+    margin-bottom: 10px;
+}
+.skills ul {
+    list-style: none;
+    padding-right: 0;
+}
+
+.skills ul li {
+    background: #efefef;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.signature {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signature img {
+    width: 150px;
+}
+
+#animation {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+}
+.image-container {
+    position: center;
+    margin-right: 18px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+#signatureImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+}
