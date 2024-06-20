@@ -1,8 +1,8 @@
-@font-face { font-family: JuneBug; src: url('warzone-warzone-400.TTF'); } 
-@font-face { font-family: JuneBug; src: url('Onvan-FD.TTF'); } 
-@font-face { font-family: JuneBug; src: url('Cinema.TTF'); } 
-@font-face { font-family: JuneBug; src: url('Vazirmatn-Medium.TTF'); } 
-@font-face { font-family: JuneBug; src: url('Tahrir_Extra Bold.TTF'); } 
+@font-face { font-family: 'Warzone'; src: url('warzone-warzone-400.TTF'); } 
+@font-face { font-family: 'Onvan'; src: url('Onvan-FD.TTF'); } 
+@font-face { font-family: 'Cinema'; src: url('Cinema.TTF'); } 
+@font-face { font-family: 'Vazir'; src: url('Vazirmatn-Medium.TTF'); } 
+@font-face { font-family: 'Tahrir'; src: url('Tahrir_Extra Bold.TTF'); } 
 * {
     box-sizing: border-box;
     margin: 0;
@@ -19,23 +19,23 @@ body {
     background-size: 100% ;
 }
 h10 {
-    font-family: warzone;
+    font-family: 'Warzone';
     font-size: 50px;
     font-weight: bold;
 }
 
 h1 ,h2{
-    font-family:Onvan-FD;
+    font-family:'Onvan';
     font-size: 24px;
 }
 h3{
-    font-family: cinema;
+    font-family: 'Cinema';
 }
 p5{
-    font-family: vazir;
+    font-family: 'Vazir';
 }
 ul,p4{
-    font-family: vazir;
+    font-family: 'Vazir';
 }
 .container {
     display: flex;
@@ -110,7 +110,7 @@ ul,p4{
     color: #fff;
     text-decoration: none;
     margin: 30px 0;
-    font-family: Tahrir ExtraBold ;
+    font-family: 'Tahrir' ;
     font-size: 19px;
     font-weight: 800;
     position: relative;
